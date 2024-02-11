@@ -55,8 +55,10 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
-  catImg.src = `img/cat-${image}.jpg`;
+  const extension = image.endsWith('.jpg') || image.endsWith('.gif') ? image.substring(image.lastIndexOf('.') + 1) : 'jpg';
+  catImg.src = `img/cat-${image}.${extension}`;
 }
+
 
 function updateNoButtonText() {
   noButton.innerHTML = generateMessage(noCount);

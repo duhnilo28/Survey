@@ -44,9 +44,9 @@ function generateMessage(noCount) {
   const messages = [
     "No",
     "Are you sure?",
-    "Pookie please",
+    "please!!! please",
     "Don't do this to me :(",
-    "You're breaking my heart",
+    "NOOOOO",
     "I'm gonna cry...",
   ];
 
